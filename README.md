@@ -33,7 +33,8 @@ spec:
       hostAliases:
       - ip: "192.168.1.72"
         hostnames:
-        - db.trpo.local```
+        - db.trpo.local
+ ```
 #### service.yml
 ```apiVersion: v1
 kind: Service
@@ -47,5 +48,6 @@ spec:
       protocol: TCP
       targetPort: 8080
   selector:
-    app: simpleapi```
+    app: simpleapi
+```
 
