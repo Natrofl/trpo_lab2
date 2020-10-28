@@ -50,4 +50,9 @@ spec:
   selector:
     app: simpleapi
 ```
-
+### шаг 3.3
+![]33_1.png
+![]33_2.png
+### шаг 3.5
+![]35_1.png
+![]35_2.png
