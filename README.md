@@ -5,7 +5,8 @@
 * __Цель лабораторной работы:__ Целью лабораторной работы является знакомство с кластерной архитектурой на примере Kubernetes, а также деплоем приложения в кластер.
 ## II
 #### deployment.yml
-```apiVersion: apps/v1
+```
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: simpleapi-deployment
@@ -36,7 +37,8 @@ spec:
         - db.trpo.local
  ```
 #### service.yml
-```apiVersion: v1
+```
+apiVersion: v1
 kind: Service
 metadata:
   name: simpleapi-service
